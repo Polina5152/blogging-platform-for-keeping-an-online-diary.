@@ -1,0 +1,79 @@
+.div_header{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header {
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    backface-visibility: hidden;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    min-width: 580px;
+    max-width: 410px;
+}
+.header-text{
+    min-width: 400px;
+    max-width: 400px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    color: rgba(0, 0, 0, 0.863);
+}
+.box_image{
+    display: block;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-position: center;
+    background-position: center;
+    max-width: 290px;
+    max-height: 250px;
+    min-width: 250px;
+    min-height: 250px;
+    height: auto;
+    object-fit: cover;
+}
+.text{
+    padding: 16px;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 0;
+    text-align: justify;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: center;
+    width: 630px;
+    max-height: 630px;
+    min-width: 250px;
+    min-height: 250px;
+    margin: 1.5rem;
+    transition: all 0.2s;
+}
+.card:hover {
+    -webkit-box-shadow: 0px 0px 17px 13px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 17px 13px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 17px 13px rgba(34, 60, 80, 0.2);
+    transform: scale(1.01);
+  }
+.usersLikedList {
+    display: flex;
+    margin: 0 auto 0 0;
+    padding: 0.5rem; 
+}
+.likeButton{
+    margin: 0.2rem !important;
+    padding: 0.5rem; 
+}
+.likeButton:hover {
+    background-color: rgba(0, 0, 0, 0.10);
+  }

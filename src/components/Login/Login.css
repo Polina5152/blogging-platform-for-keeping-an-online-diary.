@@ -1,0 +1,22 @@
+.button_div{
+    display: flex;
+    justify-content: right;
+    -webkit-align-items: right;
+    -webkit-box-align: right;
+    -ms-flex-align: right;
+    align-items:flex-end;
+    text-align: center;
+}
+.form{
+    text-align: center;
+}
+.error{
+    color: rgb(240, 70, 70);
+}
+.box_button {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    backface-visibility: hidden;
+}

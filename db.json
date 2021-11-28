@@ -1,0 +1,50 @@
+{
+  "dataAmount": {
+    "posts": 9,
+    "users": 2
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "Oleg",
+      "email": "oleg@gmail.com",
+      "avatar": "https://ibaka.ru/images/a0f71f49a5f73f83c9bf033e6c604249_full?.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Nana",
+      "email": "nana@gmail.com",
+      "avatar": "https://steamuserimages-a.akamaihd.net/ugc/793118081600085314/B5D21F3D8656D5DC49E878E2D2FC1EC1E96451AD/?imw=512&amp;imh=513&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=true"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "avatar": "https://steamuserimages-a.akamaihd.net/ugc/793118081600085314/B5D21F3D8656D5DC49E878E2D2FC1EC1E96451AD/?imw=512&amp;imh=513&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=true",
+      "title": "How to Code a Scrolling",
+      "date": "2021-10-11",
+      "img": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/landing.png",
+      "postText": "We’lllllll be putting things together so that as you scroll down from the top of the page you’ll see an “Alien Lander” making its way to touch down.",
+      "usersLiked": [
+        2,
+        3,
+        4,
+        0,
+        1
+      ],
+      "authorId": 2
+    },
+    {
+      "id": 2,
+      "avatar": "https: //i.pinimg.com/736x/11/40/01/11400153bfa4119b51d000dd008c81fb.jpg",
+      "title": "КАК ПЕРЕВЕЗТИ КОТА В МАШИНЕ БЕЗ СТРЕССА?",
+      "date": "2021-10-12",
+      "img": "https://thumb.tildacdn.com/tild3466-3762-4431-b235-663331353266/-/format/webp/667444566.jpg",
+      "postText": "Готовить кота к поездке стоит заранее: обработать от паразитов, приобрести переноску, познакомить с запахом машины. Кота лучше держать в переноске во время движения, чтобы избежать аварийных ситуаций из-за неожиданного страха животного. Важно не допускать как перегрева, так и сквозняков, регулярно предлагая коту питьевую воду. Окна и двери должны быть плотно закрыты, а шлейка с поводком надежно закреплена, чтобы кот не выскочил из машины.",
+      "usersLiked": [
+        0
+      ],
+      "authorId": 3
+    }
+  ]
+}

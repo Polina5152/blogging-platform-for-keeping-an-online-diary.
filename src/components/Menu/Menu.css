@@ -1,0 +1,26 @@
+.avatar_menu {
+    display: flex;
+    justify-content: right; 
+    -webkit-align-items: right;
+    -webkit-box-align: right;
+    -ms-flex-align: right;
+    align-items:flex-end;
+    text-align: right;
+    margin: 0 0 0 auto; 
+}
+.user_menu {
+    display: flex;
+    justify-content: right; 
+    -webkit-align-items: right;
+    -webkit-box-align: right;
+    -ms-flex-align: right;
+    align-items:flex-end;
+    text-align: right;
+    margin: 0 0 0 auto; 
+    padding: 2px;
+}
+.user_name_menu{
+    text-align: center;
+    margin: 0 0 0 auto; 
+    padding: 5px;
+}

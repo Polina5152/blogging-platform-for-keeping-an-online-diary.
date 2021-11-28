@@ -1,0 +1,15 @@
+.card_add{
+    display: flex;
+    justify-content: space-between;
+    position: center;
+    margin:3rem;
+    text-align: center;
+    padding: 25px;
+}
+.box_button{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    backface-visibility: hidden;
+}
